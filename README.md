@@ -9,8 +9,7 @@ This repository contains the source code and documentation for a video chat appl
 - [Installation](#installation)
 - [Usage](#usage)
 - [Deployment](#deployment)
-- [Contributing](#contributing)
-- [License](#license)
+
 
 ## Overview
 
@@ -79,7 +78,7 @@ Before you begin, ensure you have the following tools installed on your machine:
 
 3. **Open the Application in Your Browser:**
 
-   Visit `http://localhost:3000` in your browser and start a video chat session.
+   Visit `[https://teal-lebkuchen-393350.netlify.app/]` in your browser and start a video chat session.
 
 ## Deployment
 
@@ -92,6 +91,7 @@ Before you begin, ensure you have the following tools installed on your machine:
 3. Configure the environment variables on Render, including any secrets or API keys required.
 
 4. Deploy the backend service.
+5. [Render](https://meetkare.onrender.com)
 
 ### Frontend Deployment on Netlify
 
@@ -102,11 +102,12 @@ Before you begin, ensure you have the following tools installed on your machine:
 3. Configure build settings and environment variables on Netlify.
 
 4. Deploy the frontend site.
+5. [Netlify](https://teal-lebkuchen-393350.netlify.app/)
 
-## Contributing
+## Demo
 
-Feel free to contribute to the project by opening issues or submitting pull requests. Follow the [Contributing Guidelines](CONTRIBUTING.md) for more details.
+Check out the live demo of the video chat application:
 
-## License
+[Live Demo](https://teal-lebkuchen-393350.netlify.app/)
 
-This project is licensed under the [MIT License](LICENSE).
+
