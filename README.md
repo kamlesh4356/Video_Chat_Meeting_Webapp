@@ -1,11 +1,112 @@
-# Realtime Chat Application
+# Video Chat Application
 
-![Video Chat](https://i.ibb.co/7WZRLD1/122.jpg)
+This repository contains the source code and documentation for a video chat application developed using Node.js, React.js, JavaScript, HTML, and CSS. The application utilizes Socket.io for live streaming and is deployed on Render for the backend and Netlify for the frontend.
 
-## Introduction
-This is a code repository for the corresponding video tutorial. 
+## Table of Contents
+- [Overview](#overview)
+- [Features](#features)
+- [Prerequisites](#prerequisites)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Deployment](#deployment)
+- [Contributing](#contributing)
+- [License](#license)
 
-In this tutorial, we're going to build and deploy a React Video Chat Application using WebRTC.
+## Overview
 
-Setup:
-- run ```npm i && npm start``` for both client and server side to start the development server
+This video chat application allows users to engage in real-time video conversations. It is built using Node.js for the backend, React.js for the frontend, and Socket.io for enabling live streaming communication between users.
+
+## Features
+
+- Real-time video chat
+- Simple and intuitive user interface
+- Cross-platform (Web and Mobile)
+
+## Prerequisites
+
+Before you begin, ensure you have the following tools installed on your machine:
+
+- [Node.js](https://nodejs.org/)
+- [npm](https://www.npmjs.com/) (Node Package Manager)
+
+## Installation
+
+1. **Clone the Repository:**
+
+    ```bash
+    git clone https://github.com/your-username/video-chat-app.git
+    ```
+
+2. **Navigate to the Project Directory:**
+
+    ```bash
+    cd video-chat-app
+    ```
+
+3. **Install Backend Dependencies:**
+
+    ```bash
+    cd server
+    npm install
+    ```
+
+4. **Install Frontend Dependencies:**
+
+    ```bash
+    cd ../client
+    npm install
+    ```
+
+## Usage
+
+1. **Start the Backend Server:**
+
+    ```bash
+    cd server
+    npm start
+    ```
+
+    The server will run at `http://localhost:3001`.
+
+2. **Start the Frontend Development Server:**
+
+    ```bash
+    cd ../client
+    npm start
+    ```
+
+    The application will be accessible at `http://localhost:3000`.
+
+3. **Open the Application in Your Browser:**
+
+   Visit `http://localhost:3000` in your browser and start a video chat session.
+
+## Deployment
+
+### Backend Deployment on Render
+
+1. Sign up for a [Render](https://render.com/) account.
+
+2. Create a new web service, and connect it to your GitHub repository.
+
+3. Configure the environment variables on Render, including any secrets or API keys required.
+
+4. Deploy the backend service.
+
+### Frontend Deployment on Netlify
+
+1. Sign up for a [Netlify](https://www.netlify.com/) account.
+
+2. Create a new site from Git, and connect it to your GitHub repository.
+
+3. Configure build settings and environment variables on Netlify.
+
+4. Deploy the frontend site.
+
+## Contributing
+
+Feel free to contribute to the project by opening issues or submitting pull requests. Follow the [Contributing Guidelines](CONTRIBUTING.md) for more details.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
